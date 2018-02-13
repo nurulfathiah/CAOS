@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Block>
+    <ID>1</ID>
+    <Size>100</Size>
+  </Block>
+  <Block>
+    <ID>2</ID>
+    <Size>200</Size>
+  </Block>
+</Data>

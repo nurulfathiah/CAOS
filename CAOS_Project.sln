@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CAOS_Project", "CAOS_Project\", "{B8BDA4FB-9001-4C59-8E73-731B133A9AD1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55344"
+		Debug.AspNetCompiler.PhysicalPath = "CAOS_Project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55344\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55344"
+		Release.AspNetCompiler.PhysicalPath = "CAOS_Project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55344\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55344"
+		SlnRelativePath = "CAOS_Project\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8BDA4FB-9001-4C59-8E73-731B133A9AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BDA4FB-9001-4C59-8E73-731B133A9AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D5CDA22-977D-449C-AD68-4CD4BE5BB290}
+	EndGlobalSection
+EndGlobal

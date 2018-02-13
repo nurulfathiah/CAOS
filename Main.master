@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            background-color:aliceblue;
+            height: 45px;
+        }
+        .auto-style3 {
+            height: 48px;
+            text-align: right;
+            background-color:darkslategrey;
+            width: 1127px;
+        }
+
+     
+
+        .auto-style4 {
+            width: 1127px;
+        }
+
+     
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3">
+                    &nbsp;<asp:Label ID="Label1" runat="server" Font-Bold="False" Font-Italic="False" Font-Size="Large" Text="Selection :" Font-Names="Lucida Sans" ForeColor="White"></asp:Label>
+                    &nbsp;<asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" Font-Italic="False" Font-Size="Medium" Font-Names="Lucida Sans" ForeColor="#006666" Width="180px">
+                        <asp:ListItem>---------Selection-------</asp:ListItem>
+                        <asp:ListItem Value="CPU Scheduling">CPU Scheduling</asp:ListItem>
+                        <asp:ListItem Value="Memory Management">Memory Management</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
